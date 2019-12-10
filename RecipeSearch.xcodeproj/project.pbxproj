@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1342C96723A005AD00CD8814 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342C96623A005AD00CD8814 /* Secrets.swift */; };
 		5772B7A2239FE136000BB563 /* NetworkHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772B7A1239FE136000BB563 /* NetworkHelperTests.swift */; };
 		57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E98676239F3A8D002C7C7B /* AppDelegate.swift */; };
 		57E98679239F3A8D002C7C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E98678239F3A8D002C7C7B /* SceneDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1342C96623A005AD00CD8814 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		5772B7A1239FE136000BB563 /* NetworkHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperTests.swift; sourceTree = "<group>"; };
 		57E98673239F3A8D002C7C7B /* RecipeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E98676239F3A8D002C7C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,9 +68,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1342C96523A0054D00CD8814 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				1342C96623A005AD00CD8814 /* Secrets.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		57E9866A239F3A8D002C7C7B = {
 			isa = PBXGroup;
 			children = (
+				1342C96523A0054D00CD8814 /* Secrets */,
 				57E98675239F3A8D002C7C7B /* RecipeSearch */,
 				57E9868C239F3A8F002C7C7B /* RecipeSearchTests */,
 				57E98674239F3A8D002C7C7B /* Products */,
@@ -262,6 +273,7 @@
 			files = (
 				57E9869F239F3AC5002C7C7B /* UIImageView+Extensions.swift in Sources */,
 				57E9869D239F3AC5002C7C7B /* NetworkHelper.swift in Sources */,
+				1342C96723A005AD00CD8814 /* Secrets.swift in Sources */,
 				57E9867B239F3A8D002C7C7B /* RecipeSearchController.swift in Sources */,
 				57E9869E239F3AC5002C7C7B /* AppError.swift in Sources */,
 				57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */,
